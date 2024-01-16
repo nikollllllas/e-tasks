@@ -4,7 +4,8 @@ import {
   Folder,
   PlusSquare,
   Note,
-  SignOut
+  SignOut,
+  X
 } from '@phosphor-icons/react'
 
 import { Container, Footer, Nav, Title, Header, Button } from './styles'
@@ -16,6 +17,9 @@ export function SideMenu() {
         <Title>
           <CheckCircle /> e-Tasks
         </Title>
+        <Button>
+          <X />
+        </Button>
       </Header>
 
       <Nav>

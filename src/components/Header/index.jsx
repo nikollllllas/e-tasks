@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { List, Plus } from '@phosphor-icons/react'
 
 import { Button } from '../Button'
@@ -21,3 +22,19 @@ export function Header({ onOpenMenu }) {
   )
 }
 
+=======
+import { Plus } from "@phosphor-icons/react";
+
+import { Button } from "../Button";
+
+import { Container } from "./styles";
+
+export function Header() {
+  return (
+    <Container>
+      <h1>Tarefas</h1>
+      <Button icon={Plus} title="Nova tarefa" />
+    </Container>
+  );
+}
+>>>>>>> 0a054399e9687855df21e6a5aa43a0651d5f2d23

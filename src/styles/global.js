@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { createGlobalStyle } from 'styled-components'
 import { DEVICE_BREAKPOINTS } from './deviceBreakpoints'
 
@@ -10,6 +11,11 @@ export default createGlobalStyle`
     }
   }
 
+=======
+import { createGlobalStyle } from "styled-components";
+
+export default createGlobalStyle`
+>>>>>>> 0a054399e9687855df21e6a5aa43a0651d5f2d23
   * {
     margin: 0;
     padding: 0;
@@ -25,7 +31,11 @@ export default createGlobalStyle`
 
   body, input, button, textarea {
     font-family: 'Roboto', sans-serif;
+<<<<<<< HEAD
     font-size: 1rem;
+=======
+    font-size: 16px;
+>>>>>>> 0a054399e9687855df21e6a5aa43a0651d5f2d23
     outline: none;
   }
 
@@ -43,7 +53,11 @@ export default createGlobalStyle`
   }
 
   ::-webkit-scrollbar {
+<<<<<<< HEAD
     width: .5rem;
+=======
+    width: 8px;
+>>>>>>> 0a054399e9687855df21e6a5aa43a0651d5f2d23
   }
   
   ::-webkit-scrollbar-track {
@@ -53,5 +67,9 @@ export default createGlobalStyle`
   ::-webkit-scrollbar-thumb {
     background-color: #09090A;
   }
+<<<<<<< HEAD
 `
 
+=======
+`;
+>>>>>>> 0a054399e9687855df21e6a5aa43a0651d5f2d23

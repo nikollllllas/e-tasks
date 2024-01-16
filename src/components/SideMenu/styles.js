@@ -1,13 +1,19 @@
 import styled from 'styled-components'
+import { DEVICE_BREAKPOINTS } from '../../styles/deviceBreakpoints'
 
 export const Container = styled.aside`
-  grid-area: menu;
-  background-color: ${({ theme }) => theme.COLORS.GRAY_700};
-  width: 100%;
-  height: 100vh;
+  grid-area: none;
+  display: none;
 
-  display: flex;
-  flex-direction: column;
+  @media (min-width: ${DEVICE_BREAKPOINTS.LG}) {
+    grid-area: menu;
+    background-color: ${({ theme }) => theme.COLORS.GRAY_700};
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+  }
 `
 
 export const Header = styled.header`

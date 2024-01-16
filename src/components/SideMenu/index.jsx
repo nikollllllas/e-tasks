@@ -37,12 +37,12 @@ export function SideMenu() {
 
       <Footer>
         <img
-          src='https://github.com/rodrigorgtic.png'
+          src='https://github.com/nikollllllas.png'
           alt='Foto do usuário'
         />
         <div>
-          <strong>Rodrigo Gonçalves</strong>
-          <small>rodrigo@email.com</small>
+          <strong>Nikollas Ohta</strong>
+          <small>nikollas@email.com</small>
         </div>
 
         <Button type='button'>

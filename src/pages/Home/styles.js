@@ -12,7 +12,7 @@ export const Container = styled.div`
     'top'
     'content';
 
-  @media (min-width: ${DEVICE_BREAKPOINTS.LG}) {
+  @media (min-width: ${DEVICE_BREAKPOINTS.MD}) {
     grid-template-columns: 280px auto;
     grid-template-rows: auto 1fr;
     grid-template-areas:

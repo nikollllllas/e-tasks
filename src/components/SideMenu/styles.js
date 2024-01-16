@@ -5,7 +5,7 @@ export const Container = styled.aside`
   grid-area: none;
   display: none;
 
-  @media (min-width: ${DEVICE_BREAKPOINTS.LG}) {
+  @media (min-width: ${DEVICE_BREAKPOINTS.MD}) {
     grid-area: menu;
     background-color: ${({ theme }) => theme.COLORS.GRAY_700};
     width: 100%;

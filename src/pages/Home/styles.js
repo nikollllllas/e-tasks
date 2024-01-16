@@ -6,18 +6,18 @@ export const Container = styled.div`
   height: 100vh;
 
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: 280px auto;
   grid-template-rows: auto 1fr;
   grid-template-areas:
-    'top'
-    'content';
+    'menu top'
+    'menu content';
 
-  @media (min-width: ${DEVICE_BREAKPOINTS.MD}) {
-    grid-template-columns: 280px auto;
+  @media (max-width: ${DEVICE_BREAKPOINTS.MD}) {
+    grid-template-columns: auto;
     grid-template-rows: auto 1fr;
     grid-template-areas:
-      'menu top'
-      'menu content';
+      'top'
+      'content';
   }
 `
 

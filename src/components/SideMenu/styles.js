@@ -2,22 +2,23 @@ import styled from 'styled-components'
 import { DEVICE_BREAKPOINTS } from '../../styles/deviceBreakpoints'
 
 export const Container = styled.aside`
-  grid-area: none;
-  display: none;
+  grid-area: menu;
+  width: 100%;
+  height: 100vh;
+  background-color: ${({ theme }) => theme.COLORS.GRAY_700};
 
-  @media (min-width: ${DEVICE_BREAKPOINTS.MD}) {
-    grid-area: menu;
-    background-color: ${({ theme }) => theme.COLORS.GRAY_700};
-    width: 100%;
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
 
-    display: flex;
-    flex-direction: column;
+  @media (max-width: ${DEVICE_BREAKPOINTS.MD}) {
+    grid-area: none;
+    position: absolute;
+    z-index: 1;
 
-    @media (max-width: ${DEVICE_BREAKPOINTS.MD}) {
-      grid-area: none;
-      display: absolute;
-      z-index: -1;
+    display: none;
+
+    &[data-menu-is-open='true'] {
+      display: block;
     }
   }
 `

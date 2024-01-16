@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import styled from 'styled-components'
 import { DEVICE_BREAKPOINTS } from '../../styles/deviceBreakpoints'
 
@@ -23,29 +22,12 @@ export const Container = styled.aside`
     }
   }
 `
-=======
-import styled from "styled-components";
-
-export const Container = styled.aside`
-  grid-area: menu;
-  background-color: ${({ theme }) => theme.COLORS.GRAY_700};
-  width: 100%;
-  height: 100vh;
-
-  display: flex;
-  flex-direction: column;
-`;
->>>>>>> 0a054399e9687855df21e6a5aa43a0651d5f2d23
 
 export const Header = styled.header`
   display: flex;
   justify-content: space-between;
   padding: 32px 24px;
-<<<<<<< HEAD
 `
-=======
-`;
->>>>>>> 0a054399e9687855df21e6a5aa43a0651d5f2d23
 
 export const Title = styled.h1`
   display: flex;
@@ -53,11 +35,7 @@ export const Title = styled.h1`
   gap: 7px;
   color: ${({ theme }) => theme.COLORS.BLUE_200};
   font-size: 24px;
-<<<<<<< HEAD
 `
-=======
-`;
->>>>>>> 0a054399e9687855df21e6a5aa43a0651d5f2d23
 
 export const Nav = styled.nav`
   display: flex;
@@ -73,20 +51,12 @@ export const Nav = styled.nav`
     height: 56px;
     font-size: 16px;
 
-<<<<<<< HEAD
     &[data-menu-active='true'] {
-=======
-    &[data-menu-active="true"] {
->>>>>>> 0a054399e9687855df21e6a5aa43a0651d5f2d23
       background-color: ${({ theme }) => theme.COLORS.BLUE_200};
       color: ${({ theme }) => theme.COLORS.BLUE_600};
     }
   }
-<<<<<<< HEAD
 `
-=======
-`;
->>>>>>> 0a054399e9687855df21e6a5aa43a0651d5f2d23
 
 export const Footer = styled.footer`
   padding: 24px;
@@ -112,27 +82,15 @@ export const Footer = styled.footer`
   > div small {
     font-size: 12px;
   }
-<<<<<<< HEAD
 `
 
 export const Button = styled.button`
   background-color: transparent;
   border: none;
-=======
-`;
-
-export const Button = styled.button`
-    background-color: transparent;
-    border: none;
->>>>>>> 0a054399e9687855df21e6a5aa43a0651d5f2d23
 
   > svg {
     font-size: 20px;
     color: ${({ theme }) => theme.COLORS.GRAY_300};
   }
-<<<<<<< HEAD
 `
-=======
-`;
->>>>>>> 0a054399e9687855df21e6a5aa43a0651d5f2d23
 

@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components'
+import { DEVICE_BREAKPOINTS } from '../../styles/deviceBreakpoints'
 
 export const Container = styled.button`
   background: none;
@@ -25,4 +26,8 @@ export const Container = styled.button`
       }
       color: ${theme.COLORS.BLUE_300};
     `};
+
+  @media (max-width: ${DEVICE_BREAKPOINTS.XS}) {
+    font-size: 0.8rem;
+  }
 `

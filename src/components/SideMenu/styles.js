@@ -15,10 +15,11 @@ export const Container = styled.aside`
     position: absolute;
     z-index: 1;
 
-    display: none;
+    transform: translateX(-100%);
+    transition: transform 0.4s ease-in-out;
 
     &[data-menu-is-open='true'] {
-      display: block;
+      transform: translateX(0);
     }
   }
 `
@@ -93,4 +94,3 @@ export const Button = styled.button`
     color: ${({ theme }) => theme.COLORS.GRAY_300};
   }
 `
-
